@@ -1,0 +1,73 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  
+    background-image: url('https://i.pinimg.com/originals/dc/9f/a5/dc9fa54f788110de70558561d5aa9be2.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed; /* Ensures the background image stays in place while scrolling */
+    /* Add other styles as needed */
+  }
+  
+  
+  nav {
+    background-color: #333;
+    padding: 10px 0;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+  }
+  
+  nav ul li {
+    display: inline;
+  }
+  
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+  }
+  
+  .section {
+    padding: 50px 0;
+  }
+  
+  .container {
+    width: 80%;
+    margin: 0 auto;
+  }
+  
+  .project {
+    margin-bottom: 20px;
+  }
+  
+  .project img {
+    max-width: 100%;
+  }
+  
+  button {
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #555;
+  }
+  
+  input,
+  textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  
